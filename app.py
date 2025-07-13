@@ -5,9 +5,6 @@ import pickle
 with open('trained_spam_model.sav', 'rb') as model_file:
     model = pickle.load(model_file)
 
-# Load the vectorizer (TF-IDF or similar)
-with open('vectorizer.pkl', 'rb') as vectorizer_file:
-    vectorizer = pickle.load(vectorizer_file)
 
 # Streamlit App Config
 st.set_page_config(page_title="Spam Mail Detector", layout="centered")
