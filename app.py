@@ -6,7 +6,7 @@ with open('trained_spam_model.sav', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Load the vectorizer (TF-IDF or similar)
-with open('vectorizer.pkl', 'rb') as vectorizer_file:
+with open('vectorizers.pkl', 'rb') as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
 # Streamlit App Config
