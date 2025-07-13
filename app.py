@@ -3,7 +3,7 @@ import pickle
 import re
 
 # Load the trained model
-with open('trained_spam_model.sav', 'rb') as model_file:
+with open('trained_spam_model1.sav', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Load the vectorizer
